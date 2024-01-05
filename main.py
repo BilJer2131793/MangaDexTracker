@@ -23,9 +23,10 @@ def CheckData():
     return None
 def ChangeEmail():
     email = input("Please enter your email : ")
-    with open("UserData.json", 'w') as json_file:
+    with open("UserData.json", 'r') as json_file:
         data = json.load(json_file)
         data[0] = email
+    with open("UserData.json", "w") as json_file:
         json.dump(data, json_file)
     return email
 def ChangeLanguage():
