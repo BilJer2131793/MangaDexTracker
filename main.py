@@ -7,18 +7,49 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 import requests
 
-def LoadData():
-    with open("ChapterData.json", 'r') as json_file:
+#checks if data files exist and makes them if they dont
+def CheckData():
+    # creates data file if it doesnt exist
+    if not os.path.exists("ChapterData.json"):
+        with open("ChapterData.json", 'w') as json_file:
+            json.dump({}, json_file)
+        print("Default file created")
+    # created user file if it doesnt exist
+    if not os.path.exists("UserData.json"):
+        user = ["", "en"]
+        with open("UserData.json", 'w') as json_file:
+            json.dump(user, json_file)
+        print("User file created")
+    return None
+def ChangeEmail():
+    email = input("Please enter your email : ")
+    with open("UserData.json", 'w') as json_file:
         data = json.load(json_file)
-
-    return data
-
-def AddManga(title):
+        data[0] = email
+        json.dump(data, json_file)
+    return email
+def ChangeLanguage():
+    print("You must enter the shortened version in lowercase ex: english is en")
+    language = input("Please enter the language you want : ")
+    with open("UserData.json", 'w') as json_file:
+        data = json.load(json_file)
+        data[1] = language
+        json.dump(data, json_file)
+    return language
+def AddManga():
     base_url = "https://api.mangadex.org"
+
+    print("Copy paste the big title when on the page")
+    title = input("Title : ")
+
     r = requests.get(
         f"{base_url}/manga",
         params={"title": title}
     )
+    if r.json()["total"] == 0:
+        print("The title you entered was wrong")
+        return None
+
     id = [manga["id"] for manga in r.json()["data"]]
     chapter = GetRecentChapter(title, id[0])
     with open("ChapterData.json", 'r') as json_file:
@@ -38,8 +69,6 @@ def get_chapter(chapter):
     return float(chapter[2])
 
 def GetRecentChapter(title, id):
-#    r = requests.get(baseUrl +id+"/feed",
-#                     params={"translatedLanguage[]": language}, )
     r = requests.get(baseUrl +id+"/feed?order[readableAt]=desc&offset=0&translatedLanguage[]="+language)
     chapterList = [(title, id, chapter["attributes"]["chapter"], chapter["attributes"]["title"],
                     chapter["attributes"]["readableAt"], chapter["attributes"]["translatedLanguage"]) for chapter in
@@ -53,7 +82,7 @@ def SaveData(newData):
     with open(filePath, 'w') as json_file:
         json.dump(newData, json_file, indent=2)
     return None
-
+#main process
 def Run():
     print("Started")
     try:
@@ -76,18 +105,19 @@ def Run():
     return None
 
 def CompareData(oldData, newData):
-
     for i, data in enumerate(oldData):
         if tuple(data) != newData[i]:
             NewChapter(newData[i])
     return None
-
+#notifies user when there is a new chapter
+#If you're reading this you have access to the hotmail account
+#Have fun?
+#if you want to change it the easiest way is to make a new microsoft account since I encountered lots of problems with a gmail account
 def NewChapter(data):
     print("Chapter "+data[2]+" of "+data[0]+" has been released!")
-    sender_email = "jeromeTesting@hotmail.com"
-    sender_password = "testing554"
-
-    recipient_email = "jerome.bilodeau418@gmail.com"
+    sender_email = "MangaDexTracker@hotmail.com"
+    sender_password = "verySecurePassWord"
+    recipient_email = email
 
     subject = "Chapter "+data[2]+" of "+data[0]+" has been released!"
     body = "https://mangadex.org/title/"+data[1]
@@ -103,7 +133,7 @@ def NewChapter(data):
 
         server.sendmail(sender_email, recipient_email, message.as_string())
     return None
-
+#if the program crashes while running, sends email
 def SendErrorEmail():
     sender_email = "jeromeTesting@hotmail.com"
     sender_password = "testing554"
@@ -124,32 +154,48 @@ def SendErrorEmail():
 
         server.sendmail(sender_email, recipient_email, message.as_string())
 def ShowTracked():
+    print("Tracked Titles: ")
     with open("ChapterData.json", 'r') as json_file:
         data = json.load(json_file)
-    print(data)
+    for chapter in data:
+        print(chapter[0])
 
     return None
+
 
 # ※　※　※　※　※　※ ※　※　※　※　※　※ ※　※　※　※　※　※ ※　※　※　※　※　※ ※　※　※　※　※　※ ※　※　※　※　※　※
 
 
 baseUrl = "https://api.mangadex.org/manga/"
-language = "en"
 
-if not os.path.exists("ChapterData.json"):
-    with open("ChapterData.json", 'w') as json_file:
-        json.dump({}, json_file)
-    print("Default file created")
+CheckData()
+with open("UserData.json","r") as json_file:
+    user = json.load(json_file)
+email = user[0]
+language = user[1]
+print("Current email : "+email)
+print("Current language : "+language)
 while(True):
+    print("Add Titles          (A)")
+    print("Change Email        (E)")
+    print("Change Language     (L)")
+    print("Run Program         (R)")
+    print("Show Tracked Titles (S)")
+    print("Exit                (X)")
     choice = input("Choice: ")
     if choice.upper() == "A":
-        AddManga("School Zone")
+        AddManga()
+    elif choice.upper() == "E":
+        email = ChangeEmail()
+    elif choice.upper() == "L":
+        language = ChangeLanguage()
     elif choice.upper() == "S":
         ShowTracked()
     elif choice.upper() == "R":
         Run()
-    elif choice.upper() == "E":
+    elif choice.upper() == "X":
         exit()
+    print("\n")
 
 
 
