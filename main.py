@@ -136,13 +136,13 @@ def NewChapter(data):
     return None
 #if the program crashes while running, sends email
 def SendErrorEmail():
-    sender_email = "jeromeTesting@hotmail.com"
-    sender_password = "testing554"
+    sender_email = "MangaDexTracker@hotmail.com"
+    sender_password = "verySecurePassWord"
 
-    recipient_email = "jerome.bilodeau418@gmail.com"
+    recipient_email = email
 
     subject = "Program crashed"
-    body = "it is dead"
+    body = "The program had an error and was closed"
     message = MIMEMultipart()
     message["From"] = sender_email
     message["To"] = recipient_email
