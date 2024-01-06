@@ -115,6 +115,9 @@ def CompareData(oldData, newData):
 #Have fun?
 #if you want to change it the easiest way is to make a new microsoft account since I encountered lots of problems with a gmail account
 def NewChapter(data):
+    with open("UserData.json","r") as json_file:
+        user = json.load(json_file)
+    email = user[0]
     print("Chapter "+data[2]+" of "+data[0]+" has been released!")
     sender_email = "MangaDexTracker@hotmail.com"
     sender_password = "verySecurePassWord"
