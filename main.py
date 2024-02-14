@@ -85,6 +85,8 @@ def SaveData(newData):
     return None
 #main process
 def Run():
+    sleepTime = 1
+    maxSleep = 3600
     print("Started")
     try:
         count = 0
@@ -100,11 +102,25 @@ def Run():
             SaveData(newData)
             count = count + 1
             print("cycle "+str(count)+" done")
-            time.sleep(3600)
+            print(" ")
+            while(sleepTime < maxSleep):
+                LoadingBar(sleepTime, maxSleep)
+                sleepTime = sleepTime + 1
+            sleepTime = 1
     except:
         SendErrorEmail()
     return None
-
+def LoadingBar(i, maximum):
+    length = 64
+    blackBox = "■"
+    whiteBox = "□"
+    
+    pourcentage = int(i/maximum*100)
+    pourcentageFini = int(length*pourcentage/100)
+    print((blackBox*pourcentageFini)+((length-pourcentageFini)*whiteBox),end="\r")
+    time.sleep(1)
+    
+    return None
 def CompareData(oldData, newData):
     for i, data in enumerate(oldData):
         if tuple(data) != newData[i]:
