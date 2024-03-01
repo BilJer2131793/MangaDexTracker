@@ -85,8 +85,6 @@ def SaveData(newData):
     return None
 #main process
 def Run():
-    sleepTime = 1
-    maxSleep = 3600
     print("Started")
     try:
         count = 0
@@ -103,13 +101,19 @@ def Run():
             count = count + 1
             print("cycle "+str(count)+" done")
             print(" ")
-            while(sleepTime < maxSleep):
-                LoadingBar(sleepTime, maxSleep)
-                sleepTime = sleepTime + 1
-            sleepTime = 1
+            Loading(3600)
     except:
-        SendErrorEmail()
+		Loading(1800)
+		Run()
     return None
+def Loading(time):
+	sleepTime = 1
+	maxSleep = time
+	while(sleepTime < maxSleep):
+		LoadingBar(sleepTime, maxSleep)
+		sleepTime = sleepTime + 1	
+	
+	return None
 def LoadingBar(i, maximum):
     length = 64
     blackBox = "■"
