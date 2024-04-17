@@ -144,7 +144,7 @@ def NewChapter(data):
     recipient_email = email
 
     subject = "Chapter "+data[2]+" of "+data[0]+" has been released!"
-    body = MIMEText(u'<a href="https://mangadex.org/title/"+data[1],'html')
+    body = MIMEText('<a href="https://mangadex.org/title/"'+data[1]+'>','html')
     message = MIMEMultipart()
     message["From"] = sender_email
     message["To"] = recipient_email
