@@ -30,8 +30,8 @@ def ChangeEmail():
         json.dump(data, json_file)
     return email
 def ChangeLanguage():
-    print("You must enter the shortened version in lowercase ex: english is en")
-    language = input("Please enter the language you want : ")
+    print("You must enter the shortened version ex: english is en")
+    language = input("Please enter the language you want : ").upper()
     with open("UserData.json", 'w') as json_file:
         data = json.load(json_file)
         data[1] = language
@@ -103,8 +103,8 @@ def Run():
             print(" ")
             Loading(3600)
     except:
-		Loading(1800)
-		Run()
+        Loading(1800)
+        Run()
     return None
 def Loading(time):
 	sleepTime = 1
@@ -144,12 +144,12 @@ def NewChapter(data):
     recipient_email = email
 
     subject = "Chapter "+data[2]+" of "+data[0]+" has been released!"
-    body = "https://mangadex.org/title/"+data[1]
+    body = MIMEText(u'<a href="https://mangadex.org/title/"+data[1],'html')
     message = MIMEMultipart()
     message["From"] = sender_email
     message["To"] = recipient_email
     message["Subject"] = subject
-    message.attach(MIMEText(body, "plain"))
+    message.attach(body)
 
     with smtplib.SMTP("smtp-mail.outlook.com", 587) as server:
         server.starttls()
