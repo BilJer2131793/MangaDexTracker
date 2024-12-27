@@ -1,0 +1,13 @@
+@using System.Text.Json;
+
+<div>
+    <h1>@title.GetProperty("attributes").GetProperty("title").GetProperty("en")</h1>
+    <br>
+</div>
+
+
+@code{
+    [Parameter] public JsonElement title {get;set;}
+
+
+}

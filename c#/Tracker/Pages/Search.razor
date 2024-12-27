@@ -1,0 +1,78 @@
+@page "/Search"
+@inject HttpClient Http
+
+@using System.Text.Json;
+<div>
+    <input type="text" @bind-value="UserInput" @bind-value:event="oninput" placeholder="Enter title"/>
+</div>
+@if (titles != null && titles.Count() != 0)
+{
+@foreach (var t in titles)
+{
+    <TitleCard title=t></TitleCard>
+}
+}
+else{
+    <h2>Loading...</h2>
+}
+
+@code{
+    private List<JsonElement> titles;
+    private string Language {get;set;}
+    private string _userInput;
+
+    private string UserInput
+    {
+        get => _userInput;
+        set
+        {
+            if (_userInput != value)
+            {
+                _userInput = value;
+                FetchTitles();
+            }
+        }
+    }
+
+    protected async Task FetchTitles()
+    {
+        try
+        {
+            if(UserInput != null)
+            {
+                Console.WriteLine(UserInput);
+                var request = new HttpRequestMessage(HttpMethod.Get, "https://api.mangadex.org/manga?title="+UserInput);
+                request.Headers.Add("User-Agent", "Tracker");
+                var response = await Http.SendAsync(request);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var json = await response.Content.ReadAsStringAsync();
+                    var jsonDoc = JsonDocument.Parse(json);
+                    titles = jsonDoc.RootElement.GetProperty("data").EnumerateArray()
+                        .Select(e => (JsonElement)e).ToList(); 
+                    Console.WriteLine(titles);
+                }
+                else
+                {
+                    var errorMessage = await response.Content.ReadAsStringAsync();
+                    Console.WriteLine($"Error: {response.StatusCode} - {errorMessage}");
+                }
+            }
+
+        }
+        catch (HttpRequestException ex)
+        {
+            Console.WriteLine($"Request error: {ex.Message}");
+        }
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        //var json = await Http.GetStringAsync("/UserData.json");
+        //Language = JsonDocument.Parse(json).RootElement.GetProperty("Language").GetString();
+
+        Language = "en";
+
+    }
+}
