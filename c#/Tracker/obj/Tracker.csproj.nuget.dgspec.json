@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\Tracker.csproj": {}
+    "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\Tracker.csproj": {}
   },
   "projects": {
-    "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\Tracker.csproj": {
+    "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\Tracker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\Tracker.csproj",
+        "projectUniqueName": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\Tracker.csproj",
         "projectName": "Tracker",
-        "projectPath": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\Tracker.csproj",
+        "projectPath": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\Tracker.csproj",
         "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
-        "outputPath": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\obj\\",
+        "outputPath": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

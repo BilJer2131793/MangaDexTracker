@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "o6w2ZXijBnSyIQOpkVmGJXsQkkSNf//eCOuNXVW9n00=",
+  "Hash": "Gz8UjIV3797Y/Jm4p0R4Fy+bBvYKJyGXd5pF4hD9TP8=",
   "Source": "Tracker",
   "BasePath": "_content/Tracker",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Tracker\\wwwroot",
       "Source": "Tracker",
-      "ContentRoot": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\",
+      "ContentRoot": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\",
       "BasePath": "_content/Tracker",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Tracker.styles.css",
+      "Identity": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Tracker.styles.css",
       "SourceId": "Tracker",
       "SourceType": "Computed",
-      "ContentRoot": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Tracker",
       "RelativePath": "Tracker#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -35,13 +35,13 @@
       "Integrity": "hkaR7E467kzKHcNKdyKlP9NopRvyvbuosDz5lN8t+14=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Tracker.styles.css"
+      "OriginalItemSpec": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Tracker.styles.css"
     },
     {
-      "Identity": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Tracker.bundle.scp.css",
+      "Identity": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Tracker.bundle.scp.css",
       "SourceId": "Tracker",
       "SourceType": "Computed",
-      "ContentRoot": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Tracker",
       "RelativePath": "Tracker#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -56,13 +56,13 @@
       "Integrity": "hkaR7E467kzKHcNKdyKlP9NopRvyvbuosDz5lN8t+14=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Tracker.bundle.scp.css"
+      "OriginalItemSpec": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Tracker.bundle.scp.css"
     },
     {
-      "Identity": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "Tracker",
       "SourceType": "Discovered",
-      "ContentRoot": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\",
+      "ContentRoot": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\",
       "BasePath": "_content/Tracker",
       "RelativePath": "css/bootstrap/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "Tracker",
       "SourceType": "Discovered",
-      "ContentRoot": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\",
+      "ContentRoot": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\",
       "BasePath": "_content/Tracker",
       "RelativePath": "css/bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "Tracker",
       "SourceType": "Discovered",
-      "ContentRoot": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\",
+      "ContentRoot": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\",
       "BasePath": "_content/Tracker",
       "RelativePath": "css/open-iconic/FONT-LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "Tracker",
       "SourceType": "Discovered",
-      "ContentRoot": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\",
+      "ContentRoot": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\",
       "BasePath": "_content/Tracker",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "Tracker",
       "SourceType": "Discovered",
-      "ContentRoot": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\",
+      "ContentRoot": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\",
       "BasePath": "_content/Tracker",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.eot",
       "AssetKind": "All",
@@ -164,10 +164,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "Tracker",
       "SourceType": "Discovered",
-      "ContentRoot": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\",
+      "ContentRoot": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\",
       "BasePath": "_content/Tracker",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.otf",
       "AssetKind": "All",
@@ -185,10 +185,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "Tracker",
       "SourceType": "Discovered",
-      "ContentRoot": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\",
+      "ContentRoot": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\",
       "BasePath": "_content/Tracker",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -206,10 +206,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "Tracker",
       "SourceType": "Discovered",
-      "ContentRoot": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\",
+      "ContentRoot": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\",
       "BasePath": "_content/Tracker",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.ttf",
       "AssetKind": "All",
@@ -227,10 +227,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "Tracker",
       "SourceType": "Discovered",
-      "ContentRoot": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\",
+      "ContentRoot": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\",
       "BasePath": "_content/Tracker",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.woff",
       "AssetKind": "All",
@@ -248,10 +248,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "Tracker",
       "SourceType": "Discovered",
-      "ContentRoot": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\",
+      "ContentRoot": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\",
       "BasePath": "_content/Tracker",
       "RelativePath": "css/open-iconic/ICON-LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -269,10 +269,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "Tracker",
       "SourceType": "Discovered",
-      "ContentRoot": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\",
+      "ContentRoot": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\",
       "BasePath": "_content/Tracker",
       "RelativePath": "css/open-iconic/README#[.{fingerprint}]?.md",
       "AssetKind": "All",
@@ -290,10 +290,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\css\\site.css",
+      "Identity": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\css\\site.css",
       "SourceId": "Tracker",
       "SourceType": "Discovered",
-      "ContentRoot": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\",
+      "ContentRoot": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\",
       "BasePath": "_content/Tracker",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -311,10 +311,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\favicon.png",
+      "Identity": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\favicon.png",
       "SourceId": "Tracker",
       "SourceType": "Discovered",
-      "ContentRoot": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\",
+      "ContentRoot": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\",
       "BasePath": "_content/Tracker",
       "RelativePath": "favicon#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -332,10 +332,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
-      "Identity": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\json\\ChapterData.json",
+      "Identity": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\json\\ChapterData.json",
       "SourceId": "Tracker",
       "SourceType": "Discovered",
-      "ContentRoot": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\",
+      "ContentRoot": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\",
       "BasePath": "_content/Tracker",
       "RelativePath": "json/ChapterData#[.{fingerprint}]?.json",
       "AssetKind": "All",
@@ -353,10 +353,10 @@
       "OriginalItemSpec": "wwwroot\\json\\ChapterData.json"
     },
     {
-      "Identity": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\json\\UserData.json",
+      "Identity": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\json\\UserData.json",
       "SourceId": "Tracker",
       "SourceType": "Discovered",
-      "ContentRoot": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\",
+      "ContentRoot": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\",
       "BasePath": "_content/Tracker",
       "RelativePath": "json/UserData#[.{fingerprint}]?.json",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\json\\UserData.json"
     },
     {
-      "Identity": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\UserData.json",
+      "Identity": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\UserData.json",
       "SourceId": "Tracker",
       "SourceType": "Discovered",
-      "ContentRoot": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\",
+      "ContentRoot": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\",
       "BasePath": "_content/Tracker",
       "RelativePath": "UserData#[.{fingerprint}]?.json",
       "AssetKind": "All",
@@ -398,7 +398,7 @@
   "Endpoints": [
     {
       "Route": "css/bootstrap/bootstrap.min.bpk8xqwxhs.css",
-      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -443,7 +443,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css",
-      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -480,7 +480,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -525,7 +525,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.map",
-      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -562,7 +562,7 @@
     },
     {
       "Route": "css/open-iconic/FONT-LICENSE",
-      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -599,7 +599,7 @@
     },
     {
       "Route": "css/open-iconic/FONT-LICENSE.48tmkg660f",
-      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -644,7 +644,7 @@
     },
     {
       "Route": "css/open-iconic/font/css/open-iconic-bootstrap.min.cmapd0fi15.css",
-      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -689,7 +689,7 @@
     },
     {
       "Route": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
-      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -726,7 +726,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.0uw8dim9nl.eot",
-      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -771,7 +771,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.eot",
-      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -808,7 +808,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.h4d0pazwgy.woff",
-      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -853,7 +853,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.ll5grcv8wv.ttf",
-      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -898,7 +898,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.otf",
-      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -935,7 +935,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.sjnzgf7e1h.svg",
-      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -980,7 +980,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.svg",
-      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1017,7 +1017,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.ttf",
-      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1054,7 +1054,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.wk8x8xm0ah.otf",
-      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1099,7 +1099,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.woff",
-      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1136,7 +1136,7 @@
     },
     {
       "Route": "css/open-iconic/ICON-LICENSE",
-      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1173,7 +1173,7 @@
     },
     {
       "Route": "css/open-iconic/ICON-LICENSE.4dwjve0o0b",
-      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1218,7 +1218,7 @@
     },
     {
       "Route": "css/open-iconic/README.5bzwdl5l6x.md",
-      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\css\\open-iconic\\README.md",
+      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\css\\open-iconic\\README.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1263,7 +1263,7 @@
     },
     {
       "Route": "css/open-iconic/README.md",
-      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\css\\open-iconic\\README.md",
+      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\css\\open-iconic\\README.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1300,7 +1300,7 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\css\\site.css",
+      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1337,7 +1337,7 @@
     },
     {
       "Route": "css/site.zh9s866nx2.css",
-      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\css\\site.css",
+      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1382,7 +1382,7 @@
     },
     {
       "Route": "favicon.ifv42okdf2.png",
-      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\favicon.png",
+      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1427,7 +1427,7 @@
     },
     {
       "Route": "favicon.png",
-      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\favicon.png",
+      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1464,7 +1464,7 @@
     },
     {
       "Route": "json/ChapterData.5ipweew5fc.json",
-      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\json\\ChapterData.json",
+      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\json\\ChapterData.json",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1509,7 +1509,7 @@
     },
     {
       "Route": "json/ChapterData.json",
-      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\json\\ChapterData.json",
+      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\json\\ChapterData.json",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1546,7 +1546,7 @@
     },
     {
       "Route": "json/UserData.g8jp2xckdv.json",
-      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\json\\UserData.json",
+      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\json\\UserData.json",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1591,7 +1591,7 @@
     },
     {
       "Route": "json/UserData.json",
-      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\json\\UserData.json",
+      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\json\\UserData.json",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1628,7 +1628,7 @@
     },
     {
       "Route": "Tracker.bundle.scp.css",
-      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Tracker.bundle.scp.css",
+      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Tracker.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1665,7 +1665,7 @@
     },
     {
       "Route": "Tracker.iim6i4auou.bundle.scp.css",
-      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Tracker.bundle.scp.css",
+      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Tracker.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1710,7 +1710,7 @@
     },
     {
       "Route": "Tracker.iim6i4auou.styles.css",
-      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Tracker.styles.css",
+      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Tracker.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1755,7 +1755,7 @@
     },
     {
       "Route": "Tracker.styles.css",
-      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Tracker.styles.css",
+      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Tracker.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1792,7 +1792,7 @@
     },
     {
       "Route": "UserData.g8jp2xckdv.json",
-      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\UserData.json",
+      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\UserData.json",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1837,7 +1837,7 @@
     },
     {
       "Route": "UserData.json",
-      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\Tracker\\wwwroot\\UserData.json",
+      "AssetFile": "J:\\Code Prog\\Python\\MangaDexTracker\\c#\\TRacker\\wwwroot\\UserData.json",
       "Selectors": [],
       "ResponseHeaders": [
         {

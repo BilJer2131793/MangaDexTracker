@@ -1,13 +1,75 @@
 @using System.Text.Json;
+@inject HttpClient Http
+@using System.Linq
 
 <div>
     <h1>@title.GetProperty("attributes").GetProperty("title").GetProperty("en")</h1>
+    @if (image != null)
+    {
+        <img src="data:image/jpeg;base64,@Convert.ToBase64String(image)" alt="Cover Image" />
+    }
+    else
+    {
+        <p>Loading image...</p>
+    }
+    <button onclick=""></button>
     <br>
 </div>
 
-
 @code{
-    [Parameter] public JsonElement title {get;set;}
+    [Parameter] public JsonElement title { get; set; }
+    private byte[] image;
 
+    public async Task AddToTracked()
+    {
+
+    }
+
+    protected override async Task OnParametersSetAsync()
+    {
+        await LoadImages();
+    }
+
+    private async Task LoadImages()
+    {
+        List<JsonElement> relationShips = title.GetProperty("relationships").EnumerateArray().ToList();
+        string coverId = relationShips
+            .Where(x => x.GetProperty("type").GetString() == "cover_art")
+            .Select(x => x.GetProperty("attributes").GetProperty("fileName").GetString())
+            .First();
+
+        try
+        {
+            //image = await Http.GetByteArrayAsync("https://uploads.mangadex.org/covers/"+title.GetProperty("id")+"/"+coverId+".256.jpg");
+            var request = new HttpRequestMessage(HttpMethod.Get, "https://uploads.mangadex.org/covers/"+title.GetProperty("id")+"/"+coverId+".256.jpg");
+
+            request.Headers.Add("User-Agent", "Tracker");
+            var response = await Http.SendAsync(request);
+
+            if (response.IsSuccessStatusCode)
+            {
+                // Retrieve image as a byte array if the request is successful
+                image = await response.Content.ReadAsByteArrayAsync();
+                Console.WriteLine("Image successfully fetched");
+            }
+            else
+            {
+                Console.WriteLine("Error: " + response.StatusCode);
+            }
+        }
+        catch (Exception ex)
+        {
+            // Log the full error details
+            Console.WriteLine("-----Error-----");
+            Console.WriteLine("Message: " + ex.Message);
+            if (ex.InnerException != null)
+            {
+                Console.WriteLine("Inner Exception: " + ex.InnerException.Message);
+            }
+        }
+        finally{
+            StateHasChanged();
+        }
+    }
 
 }

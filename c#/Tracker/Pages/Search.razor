@@ -7,10 +7,10 @@
 </div>
 @if (titles != null && titles.Count() != 0)
 {
-@foreach (var t in titles)
-{
-    <TitleCard title=t></TitleCard>
-}
+    @foreach (var t in titles)
+    {
+        <TitleCard title=t ></TitleCard>
+    }
 }
 else{
     <h2>Loading...</h2>
@@ -41,7 +41,7 @@ else{
             if(UserInput != null)
             {
                 Console.WriteLine(UserInput);
-                var request = new HttpRequestMessage(HttpMethod.Get, "https://api.mangadex.org/manga?title="+UserInput);
+                var request = new HttpRequestMessage(HttpMethod.Get, "https://api.mangadex.org/manga?title="+UserInput+"&includes[]=cover_art");
                 request.Headers.Add("User-Agent", "Tracker");
                 var response = await Http.SendAsync(request);
 
@@ -51,7 +51,6 @@ else{
                     var jsonDoc = JsonDocument.Parse(json);
                     titles = jsonDoc.RootElement.GetProperty("data").EnumerateArray()
                         .Select(e => (JsonElement)e).ToList(); 
-                    Console.WriteLine(titles);
                 }
                 else
                 {
@@ -64,6 +63,9 @@ else{
         catch (HttpRequestException ex)
         {
             Console.WriteLine($"Request error: {ex.Message}");
+        }
+        finally{
+            StateHasChanged();
         }
     }
 
